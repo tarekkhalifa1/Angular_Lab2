@@ -1,0 +1,23 @@
+.img-slider {
+    margin-top: 100px;
+    text-align: center;
+}
+
+div img {
+    width: 300px;
+    margin-bottom: 30px;
+}
+
+div button {
+    margin-left: 10px;
+    padding: 10px;
+    font-size: 1.1rem;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 9999px;
+}
+
+div button:hover {
+    opacity: .5;
+}

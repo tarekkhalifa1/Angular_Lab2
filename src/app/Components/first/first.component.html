@@ -1,0 +1,5 @@
+<div class="form">
+  <p>{{text}}</p>
+  <input type="text" placeholder="Type here" (input)="getData($event)" value="{{text}}"/>
+  <input type="reset" value="Reset" (click)="resetInput()">
+</div>
